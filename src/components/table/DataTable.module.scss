@@ -1,0 +1,48 @@
+@import '../../styles/commonStyles';
+
+.tableContainer {
+  position: relative;
+  height: 100%;
+  @include scrollBar;
+
+
+  .table {
+    height: 100%;
+
+
+    .tableTitleCell {
+
+      .tableTitleIcon {
+        margin-left: 5px;
+        width: 20px;
+        height: 20px;
+        vertical-align: sub;
+        visibility: hidden;
+      }
+      .tableTitleIconActive {
+        transform: rotate(180deg);
+      }
+    }
+
+
+    .tableBody {
+    }
+
+    .tableRow {
+
+      &:hover {
+        transition: .2s;
+        background-color: #ccf9ff;
+        cursor: pointer;
+      }
+
+      .tableCell {
+
+
+        .charImage {
+          width: 40%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+.tableTitleRow {
+  background-color: deepskyblue;
+  position: sticky;
+  top: 0;
+
+  .tableCell {
+    display: flex;
+  }
+}

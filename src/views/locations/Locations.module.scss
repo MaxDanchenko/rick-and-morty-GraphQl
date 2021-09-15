@@ -1,0 +1,12 @@
+@import '../../styles/commonStyles';
+
+.wrapper {
+  @include fadeInAnimation;
+  @include commonBlockStyles;
+  margin-top: 50px;
+  height: 80vh;
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

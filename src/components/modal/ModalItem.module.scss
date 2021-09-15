@@ -1,0 +1,65 @@
+@import '../../styles/commonStyles';
+
+.wrapper {
+  @include commonBlockStyles;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 20vw;
+  max-height: 70vh;
+  padding: 20px;
+  overflow-y: scroll;
+  @include scrollBar;
+
+  .itemImg {
+    width: 100%;
+  }
+
+  .itemImgSmall {
+    width: 100%;
+  }
+
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: blue;
+  }
+
+  .table {
+    margin-top: 20px;
+
+    .tableList {
+      margin-top: 5px;
+
+      & span {
+        font-weight: bold;
+        color: blue;
+      }
+    }
+
+    & ul {
+      margin-top: 10px;
+    }
+
+    .charsImgBlock {
+      display: flex;
+      width: 300px;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      .charsImgTitle {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        width: 100%;
+        font-weight: bold;
+        color: blue;
+      }
+
+      .charsImgWrap {
+        width: 20%;
+      }
+    }
+  }
+}

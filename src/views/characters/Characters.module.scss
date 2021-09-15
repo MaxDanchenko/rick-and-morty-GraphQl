@@ -1,0 +1,34 @@
+@import '../../styles/commonStyles';
+
+.wrapper {
+  @include fadeInAnimation;
+  margin-top: 50px;
+  height: 80vh;
+  width: 70vw;
+  @include commonBlockStyles;
+  @include scrollBar;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  .dataTable {
+    width: 90%;
+  }
+
+  .filterWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 10px 0;
+
+    .filterSubWrapper {
+      display: flex;
+      justify-content: space-between;
+      margin-right: 20px;
+    }
+  }
+}
