@@ -1,7 +1,6 @@
 import React from "react"
 import ReactDOM from "react-dom"
 import {App} from "./components/app/App"
-import "./styles/fonts.scss"
 import "./styles/null-styles.scss"
 import {BrowserRouter} from "react-router-dom"
 import {ApolloClient, ApolloProvider, InMemoryCache} from "@apollo/client"
