@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="0096aea7-d41f-45c9-9de7-adf452878ed4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/characters/Characters.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/characters/Characters.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/episodes/Episodes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/episodes/Episodes.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +17,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="TypeScript JSX File" />
         <option value="SCSS File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -43,11 +46,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Hulu/mission-control-ui" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.2.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\maksym.danchenko\WebstormProjects\Hulu\campaign-review-ui\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="ts.external.directory.path" value="C:\Users\maksym.danchenko\WebstormProjects\rick-and-morty-GraphQl\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -71,6 +76,10 @@
       <workItem from="1631718583270" duration="1240000" />
       <workItem from="1631791427433" duration="69000" />
       <workItem from="1631802564891" duration="144000" />
+      <workItem from="1632839317700" duration="763000" />
+      <workItem from="1632841241703" duration="660000" />
+      <workItem from="1632901328683" duration="34000" />
+      <workItem from="1633001734131" duration="274000" />
     </task>
     <servers />
   </component>
@@ -91,5 +100,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
